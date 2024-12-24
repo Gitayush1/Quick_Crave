@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client"
 /* 
 
 <div id="parent">
@@ -14,6 +16,7 @@
 ReactElement(Object) => HTML(Browser Understands)
 
 */
+
 
 const parent = React.createElement('div',{id : 'parent'},[
     React.createElement('div',{id : 'child'},[

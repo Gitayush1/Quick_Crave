@@ -88,4 +88,26 @@
 }
 .fil-btn{
     width:80px;
+    cursor: pointer;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 200px;
+    gap:15px;
+    margin: 0 40px;
+}
+.shimmer-card{
+    border: 1px solid gray;
+    width: 200px; 
+    height: 450px;
+    margin: 10px;
+
+}
+.login{
+    padding : 0 20px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 10%;
 }
